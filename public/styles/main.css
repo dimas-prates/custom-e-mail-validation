@@ -3,7 +3,8 @@
 
 /* Custom variables */
 :root {
-    --color-background-main: white;
+    --color-background-main: linear-gradient(#4671ea,#AC34E7);
+    --color-background-form: #fff;
     --color-text-main: black;
 }
 
