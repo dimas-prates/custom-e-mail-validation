@@ -1,1 +1,23 @@
 @import url(./main.css);
+main{
+    min-height: 100vh;
+    background: var(--color-background-main);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+form {
+    max-width: 550px;
+    width: 100%;
+    background: var(--color-background-form);
+    padding: 30px;
+    border-radius: 4px;
+}
+form .input-box{
+    display: flex;
+    height: 55px;
+    align-items: center;
+}
+.input-box input {
+    height: 100%;
+}
