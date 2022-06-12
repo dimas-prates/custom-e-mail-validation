@@ -1,0 +1,18 @@
+/* Custom Font */
+@import url();
+
+/* Custom variables */
+:root {
+    --color-background-main: white;
+    --color-text-main: black;
+}
+
+/* Global Reset */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
