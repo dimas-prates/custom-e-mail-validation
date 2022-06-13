@@ -3,9 +3,13 @@
 
 /* Custom variables */
 :root {
-    --color-background-main: linear-gradient(#4671ea,#AC34E7);
+    --color-background-main: linear-gradient(#4671ea, #AC34E7);
     --color-background-form: #fff;
-    --color-text-main: black;
+    --color-background-button: #4671ea;
+    --color-background-button-hover: #1748cf;
+    --color-text-main: #fff;
+    --color-border-input: #bfbfbf;
+    --color-border-input-focus: #4671ea;
 }
 
 /* Global Reset */
