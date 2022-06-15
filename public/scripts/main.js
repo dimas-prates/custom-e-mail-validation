@@ -1,4 +1,3 @@
-// import IndexFunctions from "./index";
 //Harvesting elements
 const form = document.querySelector("form"),
   eInput = form.querySelector(".input"),
