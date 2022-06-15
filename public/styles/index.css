@@ -42,8 +42,6 @@ form .input-box {
     border-color: var(--color-border-input-focus);
 }
 
-
-
 .input-box input.button {
     width: 25%;
     padding: 0;
@@ -66,7 +64,7 @@ i.fa-solid::before {
 .input-box i {
     position: absolute;
     top: 50%;
-    transform: translateX(-50%);
+    transform: translateY(-50%);
     font-size: 20px;
 }
 
