@@ -6,6 +6,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 0 20px;
 }
 
 form {
@@ -77,4 +78,17 @@ i.fa-solid::before {
 .input-box input.input:focus-within ~ i.email-icon {
     color: var(--color-background-button-hover);
     
+}
+
+.input-box .error-icon,
+.input-box .success-icon {
+    display: none;
+    left: calc(75% - 60px);
+}
+
+.input-box .error-icon {
+    color: var(--color-icon-erro);
+}
+.input-box .success-icon {
+    color: var(--color-icon-success);
 }
