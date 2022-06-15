@@ -43,6 +43,14 @@ form .input-box {
     border-color: var(--color-border-input-focus);
 }
 
+form.valid .input-box input.input {
+    border-color: #4671ea;
+}
+
+form.error input.input {
+    border-color: #d30611;
+}
+
 .input-box input.button {
     width: 25%;
     padding: 0;
@@ -75,9 +83,14 @@ i.fa-solid::before {
     transition: all 0.3s ease;
 }
 
-.input-box input.input:focus-within ~ i.email-icon {
+form.valid i.email-icon {
     color: var(--color-background-button-hover);
-    
+
+}
+
+.input-box input.input:focus-within~i.email-icon {
+    color: var(--color-background-button-hover);
+
 }
 
 .input-box .error-icon,
@@ -89,6 +102,26 @@ i.fa-solid::before {
 .input-box .error-icon {
     color: var(--color-icon-erro);
 }
+
 .input-box .success-icon {
+    color: var(--color-icon-success);
+}
+
+form.error .error-icon {
+    display: block;
+}
+
+form.valid .success-icon {
+    display: block;
+}
+
+form .text {
+    color: #d30611;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 10px 0 -10px 2px;
+}
+
+form.valid .text {
     color: var(--color-icon-success);
 }
