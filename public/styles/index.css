@@ -20,6 +20,7 @@ form .input-box {
     display: flex;
     height: 55px;
     align-items: center;
+    position: relative;
 }
 
 .input-box input {
@@ -58,4 +59,15 @@ form .input-box {
 /* Workaround/Fix for fontsawesome */
 i.fa-solid::before {
     font-family: "Font Awesome 6 Free";
+}
+
+.input-box i {
+    position: absolute;
+    top:50%;
+    transform: translateX(-50%);
+}
+
+.input-box i.email-icon{
+    color: var(--color-border-inpu);
+
 }
