@@ -54,3 +54,8 @@ form .input-box {
 .input-box input.button:hover {
     background: var(--color-background-button-hover);
 }
+
+/* Workaround/Fix for fontsawesome */
+i.fa-solid::before {
+    font-family: "Font Awesome 6 Free";
+}
